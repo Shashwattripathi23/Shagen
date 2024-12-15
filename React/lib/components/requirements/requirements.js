@@ -1,0 +1,2 @@
+import React from 'react';
+export const Requirements = () => /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Requirements"), /*#__PURE__*/React.createElement("p", null, "The following are the requirements for the project:"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "Node.js"), /*#__PURE__*/React.createElement("li", null, "React"), /*#__PURE__*/React.createElement("li", null, "Storybook")));

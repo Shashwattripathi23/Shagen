@@ -1,0 +1,26 @@
+.wave-image {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    animation: waveEffect 2s ease-out forwards;
+  }
+  
+  @keyframes waveEffect {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-50px) rotate(15deg);
+    }
+    50% {
+      transform: translateY(0) rotate(-15deg);
+    }
+    75% {
+      transform: translateY(50px) rotate(10deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
